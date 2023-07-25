@@ -2,7 +2,7 @@
 
 ## Description
 
-The project consists in an app that works as a Pokedex showing all Pokemon info listed in https://pokeapi.co/.
+The repository consists in a web and mobile app that works as a Pokedex showing all Pokemon info listed in https://pokeapi.co/.
 
 ## Strategy
 For facing this challenge I design a workflow to keep the order of the tasks and also to ensure that every point of the challenge was taking into consideration.
@@ -12,13 +12,18 @@ For facing this challenge I design a workflow to keep the order of the tasks and
 3. Define stories based on provided design and requirements
 
 Technical requirements: 
-React Native and TypeScript are mandatory, along with CSS.  
+React, React Native and TypeScript are mandatory, along with CSS and Tailwind.  
 
 ## Getting Started
+To run each project enter to the corresponding directory 
 ```bash
+#mobile app
+cd app/
 yarn expo start
-or
-yarn expo start --tunnel
+
+#web app
+cd web/
+yarn run dev
 ```
 
 ## Anotations
